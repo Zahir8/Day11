@@ -8,5 +8,5 @@ function myNestedFunction(arr){
     return myNestedArray;
 }
 console.log(myNestedFunction(myNestedArray));
-myNestedFunction(myNestedArray);
+
 module.exports = myNestedFunction;
