@@ -1,10 +1,6 @@
-var myNestedArray = [["Toblerone", 5]];
+var myNestedArray = [["Toblerone", 5], ["Milka", 3]];
 
-function myNestedFunction(arr){
-    //var myNewNestedArray = [...arr];
-    var someOtherArray = ["Milka", 3];
-    myNestedArray.push(someOtherArray);
-
+function myNestedFunction(myNestedArray){
     return myNestedArray;
 }
 console.log(myNestedFunction(myNestedArray));
